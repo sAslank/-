@@ -21,12 +21,15 @@ zabbix ansible_host=zabbix.ru-central1.internal ansible_user=fox ansible_python_
 
 
 [elasticsearch]
+
 elasticsearch ansible_host=elasticsearch.ru-central1.internal ansible_user=fox ansible_python_interpreter=/usr/bin/python3
 
 [kibana]
+
 kibana ansible_host=kibana.ru-central1.internal ansible_user=fox ansible_python_interpreter=/usr/bin/python3
 
 [bastion]
+
 bastion  ansible_host=51.250.43.198 ansible_ssh_user=fox
 
 
