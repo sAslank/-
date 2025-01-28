@@ -12,9 +12,11 @@
 
 [web_servers]
 web-1 ansible_host=web-1.ru-central1.internal ansible_ssh_user=fox ansible_ssh_private_key_file=/home/fox/obraz/cat #проверочная настройка
+
 web-2 ansible_host=web-2.ru-central1.internal ansible_user=fox ansible_python_interpreter=/usr/bin/python3
 
 [zabbix]
+
 zabbix ansible_host=zabbix.ru-central1.internal ansible_user=fox ansible_python_interpreter=/usr/bin/python3
 
 
