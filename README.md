@@ -5,3 +5,5 @@
 
 
 Это то как он зависает при попытке подключения к ВМ (kibana.zabbix. elastic)![alt text](https://github.com/sAslank/-/blob/main/img/дип1.jpg)
+
+Через Bastion попытка подключения к вм1, создал ключ установил права chmod 600 ![alt text](https://github.com/sAslank/-/blob/main/img/дип2.jpg)
